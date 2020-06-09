@@ -5,4 +5,10 @@
 
 
 ## Plan
-TODO...
+- take 2 pointers label 1 `middle` and one `end`
+- start a loop putting both pointer at the initial node
+- while the `end` pointer is not `None`
+- increment the `end` poniter to the next node
+- if the `end` pointer is not `None`
+- increment `end` pointer and increment the `middle` pointer to the next node repsectively
+- When loop ends print out the value of the node that the `middle` pointer is pointing to
