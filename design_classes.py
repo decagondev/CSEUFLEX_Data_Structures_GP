@@ -54,3 +54,17 @@ v2 = Vec2(10, 10)
 print(v)
 v.add(v2)
 print(v)
+
+# Linked Lists to trees
+
+class Node:
+    def __init__(self, value):
+        self.value = value
+        self.left = None
+        self.right = None
+
+    def add_left(self, value):
+        self.left = Node(value)
+
+    def add_right(self, value):
+        self.right = Node(value)
