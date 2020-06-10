@@ -19,17 +19,26 @@ class BSTNode:
         # insert
         # left case
         # check if our value is less than root value
+        
             # move to the left and check if it is None
+            
                 # insert node here set the self.left to the new node
+                
             # otherwise
+            
                 # do an insert on the root's left node recursive call to the left node using self.left
+                
         # right case
         # otherwise
+        
             # move to the right and check if it is None
+            
                 # insert node here set the self.right to the new node
+                
             # otherwise
+            
                 # do an insert on the root's right node recursive call to insert using self.right
-        pass
+                
 
     # Return True if the tree contains the value
     # False if it does not
@@ -37,30 +46,56 @@ class BSTNode:
         # contains
         # check the value root node (self.value) against the target
         # if the root node value and target are the same
+        
             # return True
+            
         
         # left case
         # check if our target is less than the root val (self.value)
+        
             # check if there is no child to the left (self.left) is None
+            
                 # return False
+                
             # otherwise
+            
                 # call contains on the left child (self.left)
+                
         
         # right case
         # otherwise
+        
             # check if there is no child to the right (self.right) is None
+            
                 # return False
+                
             # otherwise
+            
                 # call contains on the right child (self.right)
-        pass
+                
 
 
     # Return the maximum value found in the tree
     def get_max(self):
+        # base case
+        # if tree is empty return False
+
+        # iterative approach
+        #while there is a right clild
+            # move to the child
+        
+        # once there is no right child return self.value
         pass
 
     # Call the function `fn` on the value of each node
     def for_each(self, fn):
+        # call the fn using self.value
+
+        # if left exists
+            # call foreach on left child
+
+        # if right exists
+            # call foreach on the right child
         pass
 
     # Part 2 -----------------------
