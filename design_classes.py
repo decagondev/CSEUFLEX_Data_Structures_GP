@@ -59,12 +59,57 @@ print(v)
 
 class Node:
     def __init__(self, value):
-        self.value = value
         self.left = None
         self.right = None
+        self.value = value
 
-    def add_left(self, value):
+    def __add_left__(self, value):
         self.left = Node(value)
 
-    def add_right(self, value):
+    def __add_right__(self, value):
         self.right = Node(value)
+
+
+# BST
+
+# node
+# left
+# right
+# value
+
+# init 
+
+# insert
+ # left case
+ # check if our value is less than root value
+    # move to the left and check if it is None
+        # insert node here
+    # otherwise
+        # do an insert on the root's left node
+ # right case
+ # otherwise
+    # move to the right and check if it is None
+        # insert node here
+    # otherwise
+        # do an insert on the root's right node
+
+# contains
+ # check the value root node against the value
+ # if the root node value and value are the same
+    # return True
+ 
+ # left case
+ # check if our value is less than the root val
+    # check if there is no child to the left
+        # return False
+    # otherwise
+        # call contains on the left child
+ 
+ # right case
+ # otherwise
+    # check if there is no child to the right
+        # return False
+    # otherwise
+        # call contains on the right child
+    
+
