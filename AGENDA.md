@@ -47,3 +47,12 @@ This is what you should get out of this module.
 - 5 min break
 - More problems if time allows
 - wrap up
+
+## Day 3
+- Class Design (Review)
+- Linked List (Review)
+- 5 min break
+- Research Exercise - Binary Search Tree
+- 5 min break
+- Building Pseudo-code from research
+- wrap up
